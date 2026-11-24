@@ -14,5 +14,10 @@ namespace BUSSINES
             X = x;
             Y = y;
         }
+        public Coordenada (Coordenada Coordenada)
+        {
+            this.X = Coordenada.X;
+            this.Y = Coordenada.Y;
+        }
     }
 }

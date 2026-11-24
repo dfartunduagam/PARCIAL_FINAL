@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BUSSINES
 {
-    internal enum DIreccion
+    internal enum Direccion
     {
         Arriba,
         Abajo,

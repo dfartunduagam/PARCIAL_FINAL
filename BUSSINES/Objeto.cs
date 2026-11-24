@@ -16,5 +16,19 @@ namespace BUSSINES
             Forma = new string[0];
             ObjetosExistentes.Add(this);
         }
+        public int Ancho
+        {
+            get
+            {
+                return Forma.Max(s => s.Length);
+            }
+        }
+        public int Alto
+        {
+            get 
+            {  
+                return Forma.Length; 
+            }
+        }
     }
 }
