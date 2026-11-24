@@ -1,7 +1,6 @@
 <Solution>
   <Folder Name="/1. GUI/">
     <Project Path="MOSTRAR/MOSTRAR.csproj" Id="8bfc2d6b-8a9c-45c8-b6f2-009a08e8753c" />
-    <Project Path="PARCIAL_FINAL/PARCIAL_FINAL.csproj" />
   </Folder>
   <Folder Name="/2.BUSSINES/">
     <Project Path="BUSSINES/BUSSINES.csproj" />
