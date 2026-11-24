@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/1. GUI/" />
+  <Folder Name="/2.BUSSINES/">
+    <Project Path="BUSSINES/BUSSINES.csproj" />
+  </Folder>
+  <Folder Name="/3.DATA/">
+    <Project Path="DATA/DATA.csproj" />
+  </Folder>
+  <Project Path="PARCIAL_FINAL/PARCIAL_FINAL.csproj" />
+</Solution>
