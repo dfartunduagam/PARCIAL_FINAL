@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BUSSINES
 {
-    internal class ObjetoMovil: Object
+    public abstract class ObjetoMovil: Objeto
     {
         public ObjetoMovil(int X, int Y): base(X, Y) { }
         public void MoverDerecha() => Posicion.X++;
