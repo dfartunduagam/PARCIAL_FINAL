@@ -96,6 +96,7 @@
             Izquierda.TabIndex = 5;
             Izquierda.Text = "button2";
             Izquierda.UseVisualStyleBackColor = true;
+            Izquierda.Click += Izquierda_Click;
             // 
             // Abajo
             // 

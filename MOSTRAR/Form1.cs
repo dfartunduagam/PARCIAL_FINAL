@@ -19,12 +19,17 @@ namespace MOSTRAR
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            pictureBox4.Location = new Point(pictureBox1.Location.X, pictureBox4.Location.Y + 1);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Izquierda_Click(object sender, EventArgs e)
+        {
+            pictureBox4.Location = new Point(pictureBox1.Location.X - 1, pictureBox4.Location.Y);
         }
     }
 }
