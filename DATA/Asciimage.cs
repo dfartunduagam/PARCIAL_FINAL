@@ -6,9 +6,9 @@ namespace DATA
 {
     public class Asciimage
     {
-        public static string[] Load (String Imgname)
+        public static string[] Load (    String Imgname)
         {
-            string filename = "img/" + Imgname + "txt";
+            string filename = "img/" + Imgname + ".png";
             return File.ReadAllLines(filename);
         }
     }
