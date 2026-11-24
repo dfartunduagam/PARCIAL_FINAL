@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BUSSINES
 {
-    internal class Juego
+    public class Juego
     {
         public Carro Carro {get; protected set;}
         public Mina Mina1 {get; protected set;}

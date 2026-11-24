@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BUSSINES.Obejtos
 {
-    internal class Mina:Objeto
+    public class Mina:Objeto
     {
         public Mina(int X, int Y) : base(X, Y)
         {
