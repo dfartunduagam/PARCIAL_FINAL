@@ -2,9 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BUSSINES.ObjetoMovil
+
+namespace BUSSINES
 {
-    internal class Carro
+    public class Carro:ObjetoMovil
     {
+        public Carro(int X, int Y) : base(X, Y)
+        {
+            Forma = DATA.Asciimage.Load("carro");
+        }
     }
 }
