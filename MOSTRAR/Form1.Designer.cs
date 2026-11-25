@@ -48,26 +48,32 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(95, 70);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(54, 52);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
             // pictureBox2
             // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(310, 137);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(58, 56);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(88, 281);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(61, 55);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 2;
             pictureBox3.TabStop = false;
             pictureBox3.Click += pictureBox3_Click;
@@ -76,10 +82,10 @@
             // 
             pictureBox4.ErrorImage = null;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(193, 231);
+            pictureBox4.Location = new Point(295, 343);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(360, 360);
-            pictureBox4.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox4.Size = new Size(85, 82);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 3;
             pictureBox4.TabStop = false;
             // 
@@ -162,7 +168,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
