@@ -9,7 +9,7 @@ namespace DATA
     {
         public static Bitmap Load (String Imgname)
         {
-            string rutaImagen = @"C:\Users\Estudiantes.LABING412-11\source\repos\PARCIAL_FINAL\DATA\img\Carro.png";
+            string rutaImagen = @"C:\Users\Estudiantes.LABING412-11\source\repos\PARCIAL_FINAL\DATA\img\"+Imgname+".png";
             Bitmap miBitmap = new Bitmap(rutaImagen);
             return miBitmap;
         }
