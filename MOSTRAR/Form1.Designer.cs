@@ -39,6 +39,10 @@
             Derecha = new Button();
             splitter1 = new Splitter();
             pictureBox5 = new PictureBox();
+            textBox1 = new TextBox();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -91,40 +95,40 @@
             // 
             // Arriba
             // 
-            Arriba.Location = new Point(585, 231);
+            Arriba.Location = new Point(598, 187);
             Arriba.Name = "Arriba";
-            Arriba.Size = new Size(52, 44);
+            Arriba.Size = new Size(79, 44);
             Arriba.TabIndex = 4;
-            Arriba.Text = "button1";
+            Arriba.Text = "ARRIBA";
             Arriba.UseVisualStyleBackColor = true;
             Arriba.Click += button1_Click;
             // 
             // Izquierda
             // 
-            Izquierda.Location = new Point(501, 308);
+            Izquierda.Location = new Point(517, 237);
             Izquierda.Name = "Izquierda";
-            Izquierda.Size = new Size(52, 44);
+            Izquierda.Size = new Size(81, 44);
             Izquierda.TabIndex = 5;
-            Izquierda.Text = "button2";
+            Izquierda.Text = "IZQUIERDA";
             Izquierda.UseVisualStyleBackColor = true;
             Izquierda.Click += Izquierda_Click;
             // 
             // Abajo
             // 
-            Abajo.Location = new Point(585, 394);
+            Abajo.Location = new Point(598, 292);
             Abajo.Name = "Abajo";
-            Abajo.Size = new Size(52, 44);
+            Abajo.Size = new Size(79, 44);
             Abajo.TabIndex = 6;
-            Abajo.Text = "button3";
+            Abajo.Text = "ABAJO";
             Abajo.UseVisualStyleBackColor = true;
             // 
             // Derecha
             // 
-            Derecha.Location = new Point(667, 308);
+            Derecha.Location = new Point(674, 237);
             Derecha.Name = "Derecha";
-            Derecha.Size = new Size(52, 44);
+            Derecha.Size = new Size(81, 44);
             Derecha.TabIndex = 7;
-            Derecha.Text = "button4";
+            Derecha.Text = "DERECHA";
             Derecha.UseVisualStyleBackColor = true;
             Derecha.Click += button4_Click;
             // 
@@ -144,11 +148,50 @@
             pictureBox5.TabIndex = 9;
             pictureBox5.TabStop = false;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(517, 38);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(238, 23);
+            textBox1.TabIndex = 10;
+            textBox1.Text = "SELECIONE UN MODO DE JUEGO";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(575, 97);
+            button1.Name = "button1";
+            button1.Size = new Size(127, 23);
+            button1.TabIndex = 11;
+            button1.Text = "MODO CAPTURA";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(575, 126);
+            button2.Name = "button2";
+            button2.Size = new Size(127, 23);
+            button2.TabIndex = 12;
+            button2.Text = "MODO REPETICIÓN";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(602, 402);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 13;
+            button3.Text = "FIANLIZAR";
+            button3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(793, 450);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(textBox1);
             Controls.Add(pictureBox5);
             Controls.Add(splitter1);
             Controls.Add(Derecha);
@@ -168,6 +211,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -182,5 +226,9 @@
         private Button Derecha;
         private Splitter splitter1;
         private PictureBox pictureBox5;
+        private TextBox textBox1;
+        private Button button1;
+        private Button button2;
+        private Button button3;
     }
 }
