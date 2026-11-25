@@ -7,7 +7,7 @@ namespace MOSTRAR
 {
     internal class ObjetoMovilInfo
     {
-        public ObjetoMovil Objeto {  get; private set; }
-        public ConsoleKey
+        //public ObjetoMovil Objeto {  get; private set; }
+        //public ConsoleKey
     }
 }

@@ -9,7 +9,7 @@ namespace BUSSINES
     {
         public Carro(int X, int Y) : base(X, Y)
         {
-            Forma = DATA.Asciimage.Load("carro");
+            Forma = DATA.Asciimage.Load("Carro");
         }
     }
 }

@@ -8,7 +8,7 @@ namespace BUSSINES.Obejtos
     {
         public Mina(int X, int Y) : base(X, Y)
         {
-            Forma = DATA.Asciimage.Load("mina");
+            Forma = DATA.Asciimage.Load("Mina");
         }
     }
 }

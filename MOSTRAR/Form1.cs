@@ -31,5 +31,10 @@ namespace MOSTRAR
         {
             pictureBox4.Location = new Point(pictureBox1.Location.X - 1, pictureBox4.Location.Y);
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

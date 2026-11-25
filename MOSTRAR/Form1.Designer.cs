@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
@@ -64,17 +65,21 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Location = new Point(88, 282);
+            pictureBox3.Location = new Point(88, 281);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(61, 55);
             pictureBox3.TabIndex = 2;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox4
             // 
-            pictureBox4.Location = new Point(12, 394);
+            pictureBox4.ErrorImage = null;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(193, 231);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(47, 44);
+            pictureBox4.Size = new Size(360, 360);
+            pictureBox4.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox4.TabIndex = 3;
             pictureBox4.TabStop = false;
             // 
@@ -157,6 +162,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
