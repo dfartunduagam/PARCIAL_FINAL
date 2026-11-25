@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Drawing;
 
 namespace DATA
 {
     public class Asciimage
     {
-        public static string[] Load (    String Imgname)
+        public static Bitmap Load (    String Imgname)
         {
-            string filename = "img/" + Imgname + ".png";
-            return File.ReadAllLines(filename);
+            string rutaImagen = @"C:\Imagenes\"+Imgname+".jpg";
+            Bitmap miBitmap = new Bitmap(rutaImagen);
+            return miBitmap;
         }
     }
 }
