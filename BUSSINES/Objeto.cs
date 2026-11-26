@@ -8,12 +8,12 @@ namespace BUSSINES
     public abstract class Objeto
     { 
         static protected List <Objeto> ObjetosExistentes = new List<Objeto>();
-        public Coordenada Posicion { get; set; }
+        
         public Bitmap Forma { get; set; }
 
         public Objeto (int x, int y )
         {
-            Posicion = new Coordenada(x, y);
+            
             ObjetosExistentes.Add(this);
         }
         public int Ancho
