@@ -11,7 +11,7 @@ namespace BUSSINES
         
         public Bitmap Forma { get; set; }
 
-        public Objeto (int x, int y )
+        public Objeto ()
         {
             
             ObjetosExistentes.Add(this);
